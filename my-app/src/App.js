@@ -1,11 +1,15 @@
 import css from './App.module.css';
 import Sidebar from './components/Sidebar';
-import StatefulGreeting from "./components/StatefulGreeting"
-import NavBarSimple from "./components/NavBarSimple"
+import StatefulGreeting from "./components/StatefulGreeting";
+import NavBarSimple from "./components/NavBarSimple";
 import EventsClass from './components/EventsClass';
 import EventsFunctional from './components/EventsFunctional';
 import ConditionalRenderingClass from './components/ConditionalRenderingClass';
 import ConditionalRenderingFunctional from './components/ConditionalRenderingFunctional';
+import NestingComponents from './components/NestingComponents';
+import MethodsAsPropsChild from './components/MethodsAsPropsChild';
+import MethodsAsPropsParent from './components/MethodsAsPropsParent';
+import NavBarForm from "./components/NavBarForm";
 
 function App() {
   return (
@@ -17,7 +21,9 @@ function App() {
       <EventsClass /> */}
       {/* <ConditionalRenderingClass />
       <ConditionalRenderingFunctional connected={false} /> */}
-      <NestingComponents />
+      {/* <NestingComponents /> */}
+      {/* <MethodsAsPropsParent /> */}
+      <NavBarForm />
     </div>
   );
 }
