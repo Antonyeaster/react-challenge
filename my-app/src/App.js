@@ -14,7 +14,7 @@ import RenderingLists from './components/RenderingLists';
 import Content from './components/Content';
 import LifeCyclesCDM from './components/LifeCyclesCDM';
 import LifeCyclesCDU from './components/LifeCyclesCDU';
-
+import LifeCyclesCWU from './components/LifeCyclesCWU';
 
 function App() {
   return (
@@ -32,7 +32,8 @@ function App() {
       {/* <RenderingLists/> */}
       {/* <Content /> */}
       {/* <LifeCyclesCDM /> */}
-      <LifeCyclesCDU />
+      {/* <LifeCyclesCDU /> */}
+      <LifeCyclesCWU/>
     </div>
   );
 }
