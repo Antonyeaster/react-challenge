@@ -12,6 +12,7 @@ import MethodsAsPropsParent from './components/MethodsAsPropsParent';
 import NavBarForm from "./components/NavBarForm";
 import RenderingLists from './components/RenderingLists';
 import Content from './components/Content';
+import LifeCyclesCWU from './components/LifeCyclesCWU';
 
 function App() {
   return (
@@ -27,7 +28,8 @@ function App() {
       {/* <MethodsAsPropsParent /> */}
       {/* <NavBarForm /> */}
       {/* <RenderingLists/> */}
-      <Content />
+      {/* <Content /> */}
+      <LifeCyclesCWU/>
     </div>
   );
 }
