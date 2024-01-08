@@ -15,11 +15,12 @@ import Content from './components/Content';
 import LifeCyclesCDM from './components/LifeCyclesCDM';
 import LifeCyclesCDU from './components/LifeCyclesCDU';
 import LifeCyclesCWU from './components/LifeCyclesCWU';
+import Loader from './components/Loader';
 
 function App() {
   return (
     <div className={App}>
-      {/* <Sidebar /> */}
+      <Sidebar />
       {/* <StatefulGreeting greeting="from the stateful component class!" name="Antony"/> */}
       {/* <NavBarSimple /> */}
       {/* <EventsFunctional />
@@ -28,12 +29,13 @@ function App() {
       <ConditionalRenderingFunctional connected={false} /> */}
       {/* <NestingComponents /> */}
       {/* <MethodsAsPropsParent /> */}
-      {/* <NavBarForm /> */}
+      <NavBarForm />
       {/* <RenderingLists/> */}
-      {/* <Content /> */}
+      <Content />
       {/* <LifeCyclesCDM /> */}
       {/* <LifeCyclesCDU /> */}
-      <LifeCyclesCWU/>
+      {/* <LifeCyclesCWU/> */}
+      {/* <Loader/> */}
     </div>
   );
 }
