@@ -19,6 +19,8 @@ import Loader from './components/Loader';
 import ControlledForm from './components/ControlledForm';
 import UncontrolledForm from './components/UncontrolledForm';
 import SearchBar from './components/SearchBar';
+import ControlledFormHooks from './components/ControlledFormHooks'
+import UseStateWithArrays from './components/UseStateWithArrays';
 
 function App() {
   return (
@@ -34,14 +36,16 @@ function App() {
       {/* <MethodsAsPropsParent /> */}
       {/* <NavBarForm /> */}
       {/* <RenderingLists/> */}
-      {/* <Content /> */}
+      {/* // <Content /> */}
       {/* <LifeCyclesCDM /> */}
       {/* <LifeCyclesCDU /> */}
       {/* <LifeCyclesCWU/> */}
       {/* <Loader/> */}
       {/* <ControlledForm /> */}
       {/* <UncontrolledForm /> */}
-      <SearchBar/>
+      {/* <SearchBar/> */}
+      {/* <ControlledFormHooks/> */}
+      <UseStateWithArrays/>
     </div>
   );
 }
