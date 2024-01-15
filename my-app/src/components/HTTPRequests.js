@@ -10,22 +10,22 @@ export class HTTPRequests extends Component {
          error: null
       }
     }
-    componentDidMount() {
-        axios.get('https://jsonplaceholder.typicode.com/posts/2')
-        .then(response => {
-            console.log("Response")
-            this.setState({
-                posts: Array.isArray(response.data) 
-                ? response.data
-                : [response.data]
-            })
-        })
-        .catch(error => {
+    componentDidMount(){
+      axios.get('https://jsonplaceholder.typicode.com/posts/1')
+      .then(response => {
+          console.log(response);
           this.setState({
-            error: error.message
+              posts: Array.isArray(response.data)
+              ? response.data
+              : [response.data]
           })
-        })
-    }
+      })
+      .catch(error => {
+          this.setState({
+              error: error.message
+          })
+      })
+  }
   render() {
     const posts = this.state.posts;
     return (

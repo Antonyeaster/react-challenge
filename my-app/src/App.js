@@ -26,10 +26,12 @@ import UseEffectCounter from './components/UseEffectCounter';
 import UseEffectCounterContainer from './components/UseEffectCounterContainer';
 import ContentHooks from './components/ContentHooks';
 import HTTPRequests from './components/HTTPRequests';
+import HTTPPost from './components/HTTPPost';
+import HTTPHooks from './components/HTTPHooks';
 
 function App() {
   return (
-    <div className={App}>
+    <div className="App">
       {/* <Sidebar /> */}
       {/* <StatefulGreeting greeting="from the stateful component class!" name="Antony"/> */}
       {/* <NavBarSimple /> */}
@@ -55,7 +57,9 @@ function App() {
       {/* <UseEffectCounter/> */}
       {/* <UseEffectCounterContainer /> */}
       {/* <ContentHooks/> */}
-      <HTTPRequests/>
+      {/* <HTTPRequests/> */}
+      {/* <HTTPPost/> */}
+      <HTTPHooks/>
     </div>
   );
 }
