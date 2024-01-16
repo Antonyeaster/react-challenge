@@ -28,11 +28,13 @@ import ContentHooks from './components/ContentHooks';
 import HTTPRequests from './components/HTTPRequests';
 import HTTPPost from './components/HTTPPost';
 import HTTPHooks from './components/HTTPHooks';
+import ContentAPI from './components/ContentAPI';
+import ContentAPIHooks from './components/ContentAPIHooks';
 
 function App() {
   return (
     <div className="App">
-      {/* <Sidebar /> */}
+      <Sidebar />
       {/* <StatefulGreeting greeting="from the stateful component class!" name="Antony"/> */}
       {/* <NavBarSimple /> */}
       {/* <EventsFunctional />
@@ -41,7 +43,7 @@ function App() {
       <ConditionalRenderingFunctional connected={false} /> */}
       {/* <NestingComponents /> */}
       {/* <MethodsAsPropsParent /> */}
-      {/* <NavBarForm /> */}
+      <NavBarForm />
       {/* <RenderingLists/> */}
       {/* // <Content /> */}
       {/* <LifeCyclesCDM /> */}
@@ -59,7 +61,9 @@ function App() {
       {/* <ContentHooks/> */}
       {/* <HTTPRequests/> */}
       {/* <HTTPPost/> */}
-      <HTTPHooks/>
+      {/* <HTTPHooks/> */}
+      {/* <ContentAPI/> */}
+      <ContentAPIHooks/>
     </div>
   );
 }
